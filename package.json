@@ -1,0 +1,38 @@
+{
+  "name": "plastiq-draggabilly",
+  "version": "1.0.0",
+  "description": "A plastiq component that makes elements draggable",
+  "main": "index.js",
+  "scripts": {
+    "example": "browserify example/example.js > example/bundle.js"
+  },
+  "dependencies": {
+    "draggabilly": "1.x"
+  },
+  "peerDependencies": {
+    "plastiq": "1.x"
+  },
+  "devDependencies": {
+    "browserify": "^10.2.6",
+    "plastiq": "^1.18.0"
+  },
+  "keywords": [
+    "plastiq",
+    "draggabilly",
+    "draggable"
+  ],
+  "author": "Josh Chisholm <joshuachisholm@gmail.com>",
+  "contributors": [],
+  "license": "MIT",
+  "files": [
+    "*.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/featurist/plastiq-draggabilly.git"
+  },
+  "bugs": {
+    "url": "https://github.com/featurist/plastiq-draggabilly/issues"
+  },
+  "homepage": "https://github.com/featurist/plastiq-draggabilly"
+}
