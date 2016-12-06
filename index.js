@@ -1,11 +1,11 @@
-var plastiq = require('plastiq');
+var hyperdom = require('hyperdom');
 var Draggabilly = require('draggabilly');
 
 function draggabillyComponent(options, element) {
   if (!element) {
     element = options;
   }
-  return plastiq.html.component(
+  return hyperdom.html.component(
     {
       onadd: function (element) {
         this.draggie = new Draggabilly(element, options);

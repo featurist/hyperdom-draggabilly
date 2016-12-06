@@ -1,6 +1,6 @@
-var plastiq = require('plastiq');
+var hyperdom = require('hyperdom');
 var draggable = require('../');
-var h = plastiq.html;
+var h = hyperdom.html;
 
 function render(model) {
   return h('.page',
@@ -10,4 +10,4 @@ function render(model) {
   );
 }
 
-plastiq.append(document.getElementById('example'), render, {});
+hyperdom.append(document.getElementById('example'), render, {});

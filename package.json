@@ -1,23 +1,24 @@
 {
-  "name": "plastiq-draggabilly",
+  "name": "hyperdom-draggabilly",
   "version": "1.0.0",
-  "description": "A plastiq component that makes elements draggable",
+  "description": "A hyperdom component that makes elements draggable",
   "main": "index.js",
   "scripts": {
     "example": "browserify example/example.js > example/bundle.js"
   },
   "dependencies": {
-    "draggabilly": "1.x"
+    "draggabilly": "1.x",
+    "hyperdom": "^0.2.0"
   },
   "peerDependencies": {
-    "plastiq": "1.x"
+    "hyperdom": "1.x"
   },
   "devDependencies": {
     "browserify": "^10.2.6",
-    "plastiq": "^1.18.0"
+    "hyperdom": "^1.18.0"
   },
   "keywords": [
-    "plastiq",
+    "hyperdom",
     "draggabilly",
     "draggable"
   ],
@@ -29,10 +30,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/featurist/plastiq-draggabilly.git"
+    "url": "https://github.com/featurist/hyperdom-draggabilly.git"
   },
   "bugs": {
-    "url": "https://github.com/featurist/plastiq-draggabilly/issues"
+    "url": "https://github.com/featurist/hyperdom-draggabilly/issues"
   },
-  "homepage": "https://github.com/featurist/plastiq-draggabilly"
+  "homepage": "https://github.com/featurist/hyperdom-draggabilly"
 }

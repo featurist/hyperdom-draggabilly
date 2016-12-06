@@ -1,16 +1,16 @@
-# plastiq-draggabilly
+# hyperdom-draggabilly
 
-A [plastiq](https://github.com/featurist/plastiq) component that makes elements
+A [hyperdom](https://github.com/featurist/hyperdom) component that makes elements
 draggable using [draggabilly](https://github.com/desandro/draggabilly).
 
-[Demo](http://www.featurist.co.uk/plastiq-draggabilly/)
+[Demo](http://www.featurist.co.uk/hyperdom-draggabilly/)
 
 ## Example
 
 ```JavaScript
-var plastiq = require('plastiq');
-var draggable = require('plastiq-draggabilly');
-var h = plastiq.html;
+var hyperdom = require('hyperdom');
+var draggable = require('hyperdom-draggabilly');
+var h = hyperdom.html;
 
 function render(model) {
   return h('.page',
@@ -20,7 +20,7 @@ function render(model) {
   );
 }
 
-plastiq.append(document.body, render, {});
+hyperdom.append(document.body, render, {});
 ```
 
 ## License
